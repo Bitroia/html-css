@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body{
+    background-image: url(images/ardennesmedio3.jpeg) ;
+    background-position: top;
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Eastwood', serif ;
+    text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.545);
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Eastwood';
+    text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.578);
+}
+
+@font-face {
+    font-family: 'Eastwood';
+    src: url(fonts/Eastwood.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

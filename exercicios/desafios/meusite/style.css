@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'Various';
+    src: url('fonts/VariousDEMO.ttf')
+    format ('truetype'), url('fonts/VariousDEMO.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*
+tipos de format fonts
+- opentype (otf)
+- truetype (ttf)
+- embedded-opentype
+- truetype-aat (Apple Advanced Typography)
+*/
+
+:root {
+    --fonte-padrao: "Bebas Neue", sans-serif;
+    --fonte-destaque:'Various', 'Times New Roman', Times, serif; 
+
+    --cor1:#F2AF5C;
+    --cor2:#BF7B3F;
+    --cor3:#732A19;
+    --cor3:#722E17;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    min-height: 150px;
+    padding-top: 40px;
+    background-image:linear-gradient(to bottom, #F2AF5C, #722E17);
+}
+
+header > h1 {
+    text-align: center;
+    font-family: 'Various', 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.46);
+}
+
+header > h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: var(--fonte-padrao)
+}
+
+nav > a{
+    color: white;
+    text-decoration: none;
+    float:inline-end;
+    margin-left: 40px;
+    font-family: var(--fonte-padrao);
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+nav > a:hover{
+    color: black;
+    transition-duration: 0.5s;
+}
+
+body {
+    background-color: #722E17;
+}
+
+main{
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 0px  40px 40px 40px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+.promocoes > h1{
+    background-color: white;
+    margin-top: 40px;
+    font-family: var(--fonte-padrao);
+    text-align: center;
+}
+
+.produtos{
+    background-color:#F2AF5C;
+    text-align: center;
+    border-radius: 20px;
+    display: block;
+    font-family: var(--fonte-padrao);
+}
+
+.produtos > h2 {
+    margin-top: 10px;
+}
+
+.preco{
+    margin: 0px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-family: var(--fonte-padrao);
+    font-size: 25px;
+    padding: 10px;
+}
+
+.divisoria_adicionais > h1{
+    background-color:white;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.adicionais{
+    background-color: #F2AF5C;
+    border-radius: 20px;
+    text-align: center;
+    display: block;
+    font-family: var(--fonte-padrao);
+}
+
+
+
+.adicionais > img {
+    margin: 0 auto 10px;
+    margin-bottom: 5px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
