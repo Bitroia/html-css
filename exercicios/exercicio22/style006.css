@@ -1,0 +1,20 @@
+@charset "UFT-8";
+
+body {
+    height: 100vh;
+    background-color: brown;
+    background-image: url(imagens/wallpaperpreto.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main{
+    background-color: white;
+    padding: 10px;
+    width: 400px;
+    margin: auto;
+    border: 1px solid darkblue;
+    border-radius: 15px;
+}
+
