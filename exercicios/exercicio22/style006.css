@@ -1,15 +1,22 @@
 @charset "UFT-8";
 
 body {
-    height: 100vh;
+    /*height: 100vh;
     background-color: brown;
     background-image: url(imagens/wallpaperpreto.jpg);
     background-position: center top;
     background-repeat: no-repeat;
+    background-size: cover;/*
+
+    /*shorthand- background
+    color > image > position > repeat > size > attachment*/
+
+    background: brown url(imagens/wallpaperpreto.jpg) center center no-repeat fixed;
     background-size: cover;
 }
 
 main{
+    max-width: 600px;
     background-color: white;
     padding: 10px;
     width: 400px;
