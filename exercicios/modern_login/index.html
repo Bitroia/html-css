@@ -11,10 +11,10 @@
 <body>
 
     <div class="container" id="container">
-        <div class="form-container inscrever">
+        <div class="form-container sign-up">
             <form>
                 <h1>Criar Conta</h1>
-                <div class="icones-sociais">
+                <div class="social-icons">
                     <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
                     <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
                     <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
@@ -25,42 +25,39 @@
                 <input type="text" placeholder="Nome">
                 <input type="email" placeholder="Email">
                 <input type="password" placeholder="Senha">
-
-                <button>Entrar</button>
-            
-
+                <button>Registrar</button>
             </form>
         </div>
-        <div class="form-container entrar">
+        <div class="form-container sign-in">
             <form>
-                <h1>Inscrever-se</h1>
-                <div class="icones-sociais">
+                <h1>Entrar</h1>
+                <div class="social-icons">
                     <a href="#" class="icones"><i class="fa-brands fa-google-plus-g"></i></a>
                     <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
                     <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
                     <a href="#" class="icon"><i class="fa-brands fa-linkedin"></i></a>
                 </div>
 
-                <span>ou use seu email para entrar</span>
+                <span>ou use seu email e senha para entrar</span>
                 <input type="email" placeholder="Email">
                 <input type="password" placeholder="Senha">
                 <a href="#">Esqueci a senha</a>
 
-                <button>Inscrever-se</button>
+                <button>Entrar</button>
             </form>
         </div>
 
-        <div class="alternar-container">
-            <div class="alternar">
-                <div class="alternar-painel alternar-para-esquerda">
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
                     <h1>Bem vindo de volta!</h1>
                     <p>Insira seus dados pessoais para continuar</p>
-                    <button class="esconder" id="login">Entrar</button>
+                    <button class="hidden" id="login">Entrar</button>
                 </div>
-                <div class="alternar-painel alternar-para-direita">
+                <div class="toggle-panel toggle-right">
                     <h1>Olá, Amigo!</h1>
                     <p>Insira seus dados pessoais para cadastrar uma nova conta</p>
-                    <button class="esconder" id="cadastrar">Inscrever-se</button>
+                    <button class="hidden" id="cadastrar">Inscrever-se</button>
                 </div>
             </div>
         </div>
