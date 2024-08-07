@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    background-size: cover; /* Ajusta a imagem para cobrir a área inteira */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+    background-attachment: fixed; /* Mantém a imagem fixa ao rolar a página */
+}
+
+header{
+    position: relative;
+    opacity: 90%;
+}
+img{
+    width: 100vw;
+}
+nav ul {
+    display: flex;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    transition: background-color 0.4s;
+    padding: 5px;
+}
+
+nav ul li {
+    list-style-type: none;
+    
+}
+
+nav a:hover {
+    background-color: #55555587;
+    color: rgba(255, 255, 255, 0.63);
+}
