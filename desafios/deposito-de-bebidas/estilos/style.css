@@ -1,0 +1,110 @@
+@charset "UFT-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sriracha&display=swap');
+
+:root{
+   --amarelo: #F6B20F;
+   --fonteprincipal: "Montserrat Alternates", sans-serif;
+   --fontesecundaria: "Khand", sans-serif;
+}
+
+/* Media Query para Responsividade */@media (max-width: 768px) {
+    header{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    header input{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    div#links-menu{
+        font-size: 24px;
+        margin-top: 10px;
+    }
+
+    div#produtos img{
+        width: 150px;
+        height: 150px;
+    }
+}
+
+body{
+    margin: 0px;
+}
+
+header{
+    background-color: var(--amarelo);
+    font-family: var(--fontesecundaria);
+    font-weight: 300;
+    display: flex; /* transforma o header em um container flexivel */
+    align-items:center; /* Alinha verticalmente os itens ao centro */
+    justify-content: space-between; /* Espaço entre os elementos */
+    padding: 10px;
+}
+
+header h1{
+    font-family: var(--fonteprincipal);
+    font-weight: 500;
+    margin: 0px;
+    font-size: 3em;
+}
+
+header input{
+    width: 250px;
+    margin-left: 40px;
+
+}
+
+div#links-usuarios{
+    display: flex;
+    gap: 10px;
+    font-weight: 300;
+}
+div#links-usuarios a{
+    text-decoration: none;
+    color: black;
+}
+div#links-usuarios a:hover{
+    color: rgba(230, 243, 255, 0.715);
+    transition: 0.5s;
+}
+
+div#links-menu{
+    margin-left: auto;
+    display: flex;
+    font-weight: 300;
+    margin-bottom: auto;
+    font-size: 30px;
+}
+div#links-menu a{
+    text-decoration: none;
+    color: black;
+}
+div#links-menu a:hover{
+    color: rgba(230, 243, 255, 0.715);
+    transition: 0.5s;
+}
+
+nav ul{
+    position: relative;
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+div#mensagens{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 200px;
+}
+
+div#produtos img{
+    width: 200px;
+    height: 200px;
+}
