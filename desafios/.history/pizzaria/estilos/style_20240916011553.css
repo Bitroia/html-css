@@ -18,7 +18,7 @@ body{
 }
 
 #header{
-    background-color: rgba(0, 0, 0, 0.647);
+    background-color: red;
     padding: 15px 20px;
     text-align: center;
 }
@@ -52,7 +52,7 @@ body{
 
 .promocoes{
     margin: 20px auto;
-    background-color: rgba(0, 0, 0, 0.647);
+    background-color: rgb(0, 145, 255);
     text-align: center;
     width: 90%;
     padding: 20px;
@@ -73,7 +73,7 @@ body{
 }
 
 .pizzas{
-    background-color: rgba(0, 0, 0, 0.647);
+    background-color: rgb(33, 12, 12);
     margin: 20px auto;
     width: 90%;
     max-width: 100%;
@@ -128,7 +128,7 @@ body{
 }
 
 .Pizzas-doces{
-    background-color: rgba(0, 0, 0, 0.647);
+    background-color: rgb(33, 12, 12);
     margin: 20px auto;
     width: 90%;
     max-width: 100%;
@@ -138,7 +138,7 @@ body{
 }
 
 .bebidas{
-    background-color: rgba(0, 0, 0, 0.647);
+    background-color: rgb(33, 12, 12);
     margin: 20px auto;
     width: 90%;
     max-width: 100%;
@@ -152,36 +152,5 @@ body{
     height: auto;
     margin-bottom: 10px;
     border-radius: 10px;
-}
-
-footer {
-    background-color: #0a0a0ad1;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-    margin-top: auto;
-}
-
-/* Estilo das colunas dentro do footer */
-.footer-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.footer-column {
-    flex: 1;
-    margin: 10px;
-    min-width: 150px;
-}
-
-/* Estilo para dispositivos móveis */
-@media (max-width: 600px) {
-    .footer-container {
-        flex-direction: column;
-        text-align: center;
-    }
 }
 
