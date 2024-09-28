@@ -32,9 +32,8 @@ header > h1 {
 
 header > nav {
     border: 1px dotted black;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: end;
+    di
+    flex: 0 0 ;
 }
 
 header > nav > a {

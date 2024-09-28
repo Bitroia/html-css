@@ -34,7 +34,7 @@ header > nav {
     border: 1px dotted black;
     display: flex;
     flex-flow: row wrap;
-    justify-content: end;
+    justify-content: ;
 }
 
 header > nav > a {
