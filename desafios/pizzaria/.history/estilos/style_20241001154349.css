@@ -8,21 +8,20 @@
 }
 
 body{
-    background-image: url('..//imagens/pizza/background2pizza.jpg');
-    background-size: contain;
+    background-image: url('..//imagens/pizza/backgroundpizza.jpg');
+    background-size: cover;
     background-position: center;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-attachment: fixed;
     margin: 0;
     padding: 0;
 }
 
 #header{
-    background-color: rgba(0, 0, 0, 0.949);
+    background-color: rgba(0, 0, 0, 0.647);
     padding: 15px 20px;
     text-align: center;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
+    background-image: linear-gradient(red to bottom);
 }
 
 #h1-header{
@@ -42,7 +41,7 @@ body{
     padding: 4px;
 }
 .link-cabecalho:hover{
-    color: rgb(255, 59, 59);
+    color: rgba(9, 6, 6, 0.466);
     transition: 0.3s;
 }
 
@@ -54,7 +53,7 @@ body{
 
 .promocoes{
     margin: 20px auto;
-    background-color: rgba(0, 0, 0, 0.949);
+    background-color: rgba(0, 0, 0, 0.647);
     text-align: center;
     width: 90%;
     padding: 20px;
@@ -75,7 +74,7 @@ body{
 }
 
 .pizzas{
-    background-color: rgba(0, 0, 0, 0.949);
+    background-color: rgba(0, 0, 0, 0.647);
     margin: 20px auto;
     width: 90%;
     max-width: 100%;
@@ -132,7 +131,7 @@ body{
 }
 
 .Pizzas-doces{
-    background-color: rgba(0, 0, 0, 0.949);
+    background-color: rgba(0, 0, 0, 0.647);
     margin: 20px auto;
     width: 90%;
     max-width: 100%;
@@ -142,7 +141,7 @@ body{
 }
 
 .bebidas{
-    background-color: rgba(0, 0, 0, 0.949);
+    background-color: rgba(0, 0, 0, 0.647);
     margin: 20px auto;
     width: 90%;
     max-width: 100%;

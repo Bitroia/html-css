@@ -42,7 +42,7 @@ body{
     padding: 4px;
 }
 .link-cabecalho:hover{
-    color: rgb(255, 59, 59);
+    color: rgba(9, 6, 6, 0.466);
     transition: 0.3s;
 }
 
