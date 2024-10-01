@@ -7,7 +7,6 @@
     margin: 0;
 }
 
-/*proximo passo>> deixar o menu funcional (rolagem para pizza/sobremesa/bebida escolhida)*/
 body{
     background-image: url('..//imagens/pizza/background2pizza.jpg');
     background-size: contain;
@@ -75,7 +74,7 @@ body{
     padding-bottom: 10px;
 }
 
-.card{
+.pizzas{
     background-color: rgba(0, 0, 0, 0.949);
     margin: 20px auto;
     width: 90%;
@@ -95,7 +94,6 @@ body{
     background-color: transparent;
     border-radius: 10px;
     padding: 20px;
-    box-shadow: 1px 1px 1px 1px  rgba(255, 59, 59, 0.321);
 }
 
 .h2-sub-grid{
@@ -132,6 +130,26 @@ body{
     transition: 0.3s;
 }
 
+.Pizzas-doces{
+    background-color: rgba(0, 0, 0, 0.949);
+    margin: 20px auto;
+    width: 90%;
+    max-width: 100%;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.bebidas{
+    background-color: rgba(0, 0, 0, 0.949);
+    margin: 20px auto;
+    width: 90%;
+    max-width: 100%;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+}
+
 .img-bebida{
     width: 100%;
     height: auto;
@@ -144,7 +162,7 @@ footer {
     color: #fff;
     padding: 20px 0;
     text-align: center;
-    margin-top: 20px;
+    margin-top: auto;
 }
 
 /* Estilo das colunas dentro do footer */
@@ -157,8 +175,8 @@ footer {
 }
 
 .footer-column {
-    flex: 1 1 100%;
-    margin: 10px 0;
+    flex: 1;
+    margin: 10px;
     min-width: 150px;
 }
 

@@ -7,7 +7,6 @@
     margin: 0;
 }
 
-/*proximo passo>> deixar o menu funcional (rolagem para pizza/sobremesa/bebida escolhida)*/
 body{
     background-image: url('..//imagens/pizza/background2pizza.jpg');
     background-size: contain;
@@ -131,6 +130,8 @@ body{
     background-color: darkred;
     transition: 0.3s;
 }
+
+
 
 .img-bebida{
     width: 100%;

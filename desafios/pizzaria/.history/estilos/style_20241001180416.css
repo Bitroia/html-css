@@ -7,7 +7,6 @@
     margin: 0;
 }
 
-/*proximo passo>> deixar o menu funcional (rolagem para pizza/sobremesa/bebida escolhida)*/
 body{
     background-image: url('..//imagens/pizza/background2pizza.jpg');
     background-size: contain;
@@ -75,7 +74,17 @@ body{
     padding-bottom: 10px;
 }
 
-.card{
+.pizzas{
+    background-color: rgba(0, 0, 0, 0.949);
+    margin: 20px auto;
+    width: 90%;
+    max-width: 100%;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.bebidas{
     background-color: rgba(0, 0, 0, 0.949);
     margin: 20px auto;
     width: 90%;
@@ -131,6 +140,18 @@ body{
     background-color: darkred;
     transition: 0.3s;
 }
+
+.pizzas-doces{
+    background-color: rgba(0, 0, 0, 0.949);
+    margin: 20px auto;
+    width: 90%;
+    max-width: 100%;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+
 
 .img-bebida{
     width: 100%;
