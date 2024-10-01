@@ -88,15 +88,14 @@ body{
     gap: 20px;
 }
 
-.produto-container{
-    background-color: transparent;
+.sub-grid{
+    background-color: white;
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 4px 8 px rgba(0,0,0,0.1);
 }
 
 .h2-sub-grid{
-    color: rgba(255, 255, 255, 0.589);
     font-size: 22px;
     margin-bottom: 10px;
 }
@@ -112,7 +111,6 @@ body{
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 10px;
-    color: rgba(255, 255, 255, 0.589);
 }
 
 .btn-acao{
@@ -216,7 +214,7 @@ footer {
         grid-template-columns: repeat(2,1fr);
     }
 
-    .produto-container{
+    .sub-grid{
         padding: 10px;
     }
 
@@ -230,12 +228,6 @@ footer {
 
     .btn-acao{
         padding: 8px 15px;
-    }
-
-    /*Ajuste de imagens*/
-
-    .img-bebida, .img-pizza{
-        height: 200px;
     }
 }
 

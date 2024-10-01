@@ -96,7 +96,6 @@ body{
 }
 
 .h2-sub-grid{
-    color: rgba(255, 255, 255, 0.589);
     font-size: 22px;
     margin-bottom: 10px;
 }
@@ -112,7 +111,7 @@ body{
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 10px;
-    color: rgba(255, 255, 255, 0.589);
+    col
 }
 
 .btn-acao{
