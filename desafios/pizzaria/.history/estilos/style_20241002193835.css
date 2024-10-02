@@ -189,11 +189,6 @@ footer {
         display: block;
     }
 
-    .link-cabecalho{
-        padding: 10px;
-        border-bottom: 1px solid white;
-    }
-
     .footer-container {
         flex-direction: column;
         text-align: center;

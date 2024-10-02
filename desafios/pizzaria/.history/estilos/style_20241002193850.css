@@ -189,10 +189,7 @@ footer {
         display: block;
     }
 
-    .link-cabecalho{
-        padding: 10px;
-        border-bottom: 1px solid white;
-    }
+    .link-cabecalho
 
     .footer-container {
         flex-direction: column;

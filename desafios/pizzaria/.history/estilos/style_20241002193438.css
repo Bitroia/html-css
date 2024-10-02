@@ -162,38 +162,10 @@ footer {
     min-width: 150px;
 }
 
-/*Estilo padrão para o menu hamburguer (escondido en telas grandes)*/
-
-.menu-toggle{
-    display: none;
-    font-size: 28px;
-    color: white;
-    cursor: pointer;
-}
+/*Estilo padrão para o menu hamburguer */
 
 /* Estilo para dispositivos móveis */
 @media (max-width: 600px) {
-
-    #navegação{
-        display: none;
-        flex-direction: column; /*Alinha os itens em coluna*/
-        background-color: rgba(0, 0, 0,0.95);
-        position: absolute;
-        top: 60px;
-        right: 0;
-        width: 100%;
-        text-align: center;
-    }
-
-    .menu-toggle{
-        display: block;
-    }
-
-    .link-cabecalho{
-        padding: 10px;
-        border-bottom: 1px solid white;
-    }
-
     .footer-container {
         flex-direction: column;
         text-align: center;

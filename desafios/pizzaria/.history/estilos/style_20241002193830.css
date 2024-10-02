@@ -185,14 +185,7 @@ footer {
         text-align: center;
     }
 
-    .menu-toggle{
-        display: block;
-    }
-
-    .link-cabecalho{
-        padding: 10px;
-        border-bottom: 1px solid white;
-    }
+    
 
     .footer-container {
         flex-direction: column;

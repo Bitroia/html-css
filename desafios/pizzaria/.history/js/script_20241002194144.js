@@ -4,10 +4,7 @@ import {adicionarAoCarrinho} from './carrinho.js';
 const menuToggle = document.getElementById("menu-toggle");
 const navegacao = document.getElementById("navegacao");
 
-menuToggle.addEventListener("click", function (){
-    //Toggle para mostrar e esconder o menu
-    navegacao.style.display = navegacao.style.display === "flex" ? "none" : "flex";
-});
+menuToggle
 
 document.addEventListener('DOMContentLoaded', () =>{
     exibirPromocoes(); //Função para exibir promoções na página
