@@ -14,6 +14,7 @@ menuToggle.addEventListener("click", function (){
     } else {
         navegacao.style.display == "none"; //Esconder menu
     }
+     
 });
 
 document.addEventListener('DOMContentLoaded', () =>{

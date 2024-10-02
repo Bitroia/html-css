@@ -9,11 +9,8 @@ navegacao.style.display = "none"; //começa com menu escondido
 menuToggle.addEventListener("click", function (){
     //Toggle para mostrar e esconder o menu
     //Alternar entre mostrar e esconder o menu
-    if (navegacao.style.display === "none" || navegacao.style.display ===""){
-        navegacao.style.display = "flex"; // Mostrar menu
-    } else {
-        navegacao.style.display == "none"; //Esconder menu
-    }
+    if (navegacao.style.d)
+    navegacao.style.display = navegacao.style.display === "flex" ? "none" : "flex";
 });
 
 document.addEventListener('DOMContentLoaded', () =>{

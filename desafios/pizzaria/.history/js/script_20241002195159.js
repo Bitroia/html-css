@@ -12,8 +12,9 @@ menuToggle.addEventListener("click", function (){
     if (navegacao.style.display === "none" || navegacao.style.display ===""){
         navegacao.style.display = "flex"; // Mostrar menu
     } else {
-        navegacao.style.display == "none"; //Esconder menu
+        navegacao.style.display == "none"; 
     }
+     
 });
 
 document.addEventListener('DOMContentLoaded', () =>{
