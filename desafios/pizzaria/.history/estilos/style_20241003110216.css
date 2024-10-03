@@ -194,8 +194,7 @@ footer {
         cursor: pointer;
         padding: 5px;
         text-align: center;
-        top: 20px;
-        right: 20px;
+       
         
     }
 
@@ -222,7 +221,7 @@ footer {
     }
 
     .promocoes{
-        margin-top: 20px;
+        margin-top: 60px;
     }
 
     .promocoes, .pizzas, .Pizzas-doces, .bebidas{

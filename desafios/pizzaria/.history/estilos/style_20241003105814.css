@@ -178,12 +178,15 @@ footer {
     #navegacao{
         display: flex;
         flex-direction: column; /*Alinha os itens em coluna*/
+        background-color: rgba(0, 0, 0,0.95);
         position: relative;
+        top: 60px;
         right: 0;
         width: 100%;
         text-align: center;
         align-items: center;
         gap: 8px;
+        margin-top: 20px;
         border-radius: 20px;
     }
 
@@ -192,11 +195,10 @@ footer {
         margin: 0 auto;
         color: white;
         cursor: pointer;
-        padding: 5px;
+        padding: 10px 0;
         text-align: center;
         top: 20px;
         right: 20px;
-        
     }
 
     .link-cabecalho{
@@ -222,7 +224,7 @@ footer {
     }
 
     .promocoes{
-        margin-top: 20px;
+        margin-top: 60px;
     }
 
     .promocoes, .pizzas, .Pizzas-doces, .bebidas{
