@@ -204,6 +204,8 @@ footer {
     .link-cabecalho{
         display: block;
         padding: 15px;
+        text-decoration:wavy;
+        color: blue;
     }
 
     .footer-container {
