@@ -5,10 +5,8 @@ const menuToggle = document.getElementById("menu-toggle");
 const navegacao = document.getElementById("navegacao");
 
 menuToggle.addEventListener("click", function (){
-    if(navegacao.style.display === "block"){
-        navegacao.style.display = "none";
-    } else {
-        navegacao.style.display = "block";
+    if(navegacao.style.display === "none" || navegacao.style.display === ""){
+        navegacao.style.display = ""
     }
 });
 

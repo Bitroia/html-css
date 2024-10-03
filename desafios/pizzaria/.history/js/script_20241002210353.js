@@ -6,9 +6,9 @@ const navegacao = document.getElementById("navegacao");
 
 menuToggle.addEventListener("click", function (){
     if(navegacao.style.display === "block"){
-        navegacao.style.display = "none";
+        navegacao.style.display = "flex";
     } else {
-        navegacao.style.display = "block";
+        navegacao.style.display = "none";
     }
 });
 

@@ -5,10 +5,12 @@ const menuToggle = document.getElementById("menu-toggle");
 const navegacao = document.getElementById("navegacao");
 
 menuToggle.addEventListener("click", function (){
-    if(navegacao.style.display === "block"){
-        navegacao.style.display = "none";
+    //Toggle para mostrar e esconder o menu
+    //Alternar entre mostrar e esconder o menu
+    if (navegacao.style.display === "none" || navegacao.style.display ===""){
+        navegacao.style.display = "flex"; // Mostrar menu
     } else {
-        navegacao.style.display = "block";
+        navegacao.style.display = navegacao.style.display === "flex" ? "none"; //Esconder menu
     }
 });
 

@@ -5,11 +5,9 @@ const menuToggle = document.getElementById("menu-toggle");
 const navegacao = document.getElementById("navegacao");
 
 menuToggle.addEventListener("click", function (){
-    if(navegacao.style.display === "block"){
-        navegacao.style.display = "none";
-    } else {
-        navegacao.style.display = "block";
-    }
+    //Toggle para mostrar e esconder o menu
+    //Alternar entre mostrar e esconder o menu
+        navegacao.style.display = navegacao.style.display === "block" ? "none" : "block"; //Esconder e mostrar o menu ao clicar
 });
 
 document.addEventListener('DOMContentLoaded', () =>{

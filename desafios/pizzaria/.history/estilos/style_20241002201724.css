@@ -24,7 +24,6 @@ body{
     text-align: center;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
-    position: relative;
 }
 
 #h1-header{
@@ -35,15 +34,6 @@ body{
 .h3-header{
     color: white;
     margin-bottom: 15px;
-}
-
-/*Estilo padrão para o menu hamburguer (escondido em telas grandes)*/
-
-.menu-toggle{
-    display: none;
-    font-size: 30px;
-    color: white;
-    cursor: pointer;
 }
 
 .link-cabecalho{
@@ -172,10 +162,12 @@ footer {
     min-width: 150px;
 }
 
+
+
 /* Estilo para dispositivos móveis */
 @media (max-width: 600px) {
 
-    #navegacao{
+    #navegação{
         display: none;
         flex-direction: column; /*Alinha os itens em coluna*/
         background-color: rgba(0, 0, 0,0.95);
@@ -186,25 +178,15 @@ footer {
         text-align: center;
         align-items: center;
         gap: 8px;
-        margin-top: 88px;
-        border-radius: 20px;
     }
 
     .menu-toggle{
-        display: inline-block;
-        margin: 0 auto;
-        color: white;
-        cursor: pointer;
-        padding: 10px 0;
-        text-align: center;
-        top: 20px;
-        right: 20px;
+        display: block;
     }
 
     .link-cabecalho{
-        display: block;
-        padding: 15px;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.534);
+        padding: 10px;
+        border-bottom: 1px solid white;
     }
 
     .footer-container {

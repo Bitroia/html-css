@@ -40,7 +40,7 @@ body{
 /*Estilo padrão para o menu hamburguer (escondido em telas grandes)*/
 
 .menu-toggle{
-    display: none;
+    display: inl;
     font-size: 30px;
     color: white;
     cursor: pointer;
@@ -186,17 +186,13 @@ footer {
         text-align: center;
         align-items: center;
         gap: 8px;
-        margin-top: 88px;
+        margin-top: 29px;
         border-radius: 20px;
     }
 
     .menu-toggle{
-        display: inline-block;
-        margin: 0 auto;
-        color: white;
-        cursor: pointer;
-        padding: 10px 0;
-        text-align: center;
+        display: block;
+        position:absolute;
         top: 20px;
         right: 20px;
     }

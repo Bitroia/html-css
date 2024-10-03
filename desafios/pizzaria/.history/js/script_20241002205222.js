@@ -4,11 +4,15 @@ import {adicionarAoCarrinho} from './carrinho.js';
 const menuToggle = document.getElementById("menu-toggle");
 const navegacao = document.getElementById("navegacao");
 
+navegacao.classList.remove('menu-visivel');
+
+men
+
 menuToggle.addEventListener("click", function (){
-    if(navegacao.style.display === "block"){
-        navegacao.style.display = "none";
+    if(navegacao.style.display === "none" || navegacao.style.display === ""){
+        navegacao.style.display = "flex";
     } else {
-        navegacao.style.display = "block";
+        navegacao.style.display = "none";
     }
 });
 
