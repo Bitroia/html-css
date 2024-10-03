@@ -24,6 +24,21 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
+function rolarParaCard(elementoAlvo, duracao) {
+    const posicaoAlvo = elementoAlvo.getBoundingCleintRect().top // Posição do alvo
+    const posicaoInicial = window.pageYOffset;
+    const distancia = posicaoAlvo; //Distancia entre a posicao atual e o alvo
+    let tempoInicial = null;
+
+    function rolagemAnimacao(tempoCorrente) {
+        if (tempoInicial === null) tempoInicial = tempoCorrente;
+        const tempoDecorrido = tempoCorrente - tempoInicial;
+        const corre = ease(tempoDecorrido, posicaoInicial, distancia, duracao);
+        window.scroll(0, corre);
+        if (tempoCorrente < duracao) requestAnimationFrame(rolagemAnimacao);
+    }
+}
+
 
 
 

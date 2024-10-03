@@ -1,18 +1,18 @@
-import { exibirPromocoes } from './promocoes.js';
-import { adicionarAoCarrinho } from './carrinho.js';
+import {exibirPromocoes} from './promocoes.js';
+import {adicionarAoCarrinho} from './carrinho.js';
 
 const menuToggle = document.getElementById("menu-toggle");
 const navegacao = document.getElementById("navegacao");
 
-menuToggle.addEventListener("click", function () {
-    if (navegacao.style.display === "block") {
+menuToggle.addEventListener("click", function (){
+    if(navegacao.style.display === "block"){
         navegacao.style.display = "none";
     } else {
         navegacao.style.display = "block";
     }
 });
 
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () =>{
     exibirPromocoes(); //Função para exibir promoções na página
 
     const botaoAdicionar = document.querySelector('.btn-acao');
@@ -24,6 +24,13 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
+function rolarParaCard(elementoAlvo, duration){
+    const posicaoAlvo = elementoAlvo.getBoundingCleintRect().top // Posição do alvo
+    const posicaoInicial = window.pageYOffset;
+    const tempoInicial = null;
+}
 
-
+function rolagemAnimacao(tempoCorrente){
+    if
+}
 

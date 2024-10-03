@@ -8,11 +8,10 @@
 }
 
 html{
-    scroll-behavior: smooth;
+    scroll-behavior: ;
 }
 
-/*proximo passo>> configurar redes sociais da pizzaria
-aplicar fonte*/
+/*proximo passo>> deixar o menu funcional (rolagem para pizza/sobremesa/bebida escolhida)*/
 body{
     background-image: url('..//imagens/pizza/background2pizza.jpg');
     background-size: contain;
