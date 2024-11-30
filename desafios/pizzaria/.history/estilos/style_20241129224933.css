@@ -124,7 +124,7 @@ body{
 .h2-sub-grid{
     font-family: "Montserrat Alternates", serif;
     color: rgba(255, 255, 255, 0.589);
-    font-size: 18px;
+    font-size: 22px;
     margin-bottom: 10px;
 }
 
@@ -136,7 +136,7 @@ body{
 }
 
 .p-preco{
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
     margin-bottom: 10px;
     color: rgba(255, 255, 255, 0.589);
