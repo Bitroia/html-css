@@ -26,13 +26,12 @@ header{
 }
 
 header > h1 {
-   /* border: 1px dotted black;*/
+    border: 1px dotted black;
     flex: 0 0 200px;
-    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.625);
 }
 
 header > nav {
-   /* border: 1px dotted black;*/
+    border: 1px dotted black;
     display: flex;
     flex-flow: row wrap;
     justify-content: end;
@@ -62,17 +61,13 @@ main{
     box-shadow: 2px 2px 3px black;
 }
 
-@media screen and (max-width: 500px) {
+@media screen {
 
     header, header > nav{
         flex-flow: column nowrap;
 
     }
     header > h1{
-        flex-basis: 50px;
-    }
-
-    header > nav > a{
-        width: 90vw;
+        background-color: red;
     }
 }
