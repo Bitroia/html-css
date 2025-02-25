@@ -29,12 +29,8 @@ window.onscroll == function (){
     if (document.documentElement.scrollTop > 300){
         btn.style = "block";
     } else {
-        btn.style.display = "none";
+        btn.style.display
     }
-};
-
-function scrollToTop(){
-    window.scrollTo({top: 0, behavior: "smooth"});
 }
 
 

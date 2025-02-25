@@ -164,7 +164,7 @@ body{
     border-radius: 10px;
 }
 
-#voltar-ao-topo {
+#back-to-top {
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -177,10 +177,6 @@ body{
     cursor: pointer;
     display: none; /* Começa oculto */
     z-index: 1000;
-}
-
-#voltar-ao-topo:hover{
-    background-color: darkred;
 }
 
 footer {
@@ -251,7 +247,7 @@ footer {
         font-size: 24px;
     }
 
-    .h3-header{
+    .h3-header4{
         font-size: 16px;
     }
 

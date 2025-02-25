@@ -164,25 +164,6 @@ body{
     border-radius: 10px;
 }
 
-#voltar-ao-topo {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: rgba(255, 59, 59, 0.8);
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-    font-size: 18px;
-    cursor: pointer;
-    display: none; /* Começa oculto */
-    z-index: 1000;
-}
-
-#voltar-ao-topo:hover{
-    background-color: darkred;
-}
-
 footer {
     background-color: #0a0a0ad1;
     color: #fff;
@@ -205,6 +186,8 @@ footer {
     margin: 10px 0;
     min-width: 150px;
 }
+
+
 
 /* Estilo para dispositivos móveis */
 @media (max-width: 600px) {
@@ -251,7 +234,7 @@ footer {
         font-size: 24px;
     }
 
-    .h3-header{
+    .h3-header4{
         font-size: 16px;
     }
 

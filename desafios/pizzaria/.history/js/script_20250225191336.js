@@ -27,14 +27,8 @@ document.addEventListener('DOMContentLoaded', () => {
 window.onscroll == function (){
     let btn = document.getElementById("voltar-ao-topo");
     if (document.documentElement.scrollTop > 300){
-        btn.style = "block";
-    } else {
-        btn.style.display = "none";
+        btn.style = "block"
     }
-};
-
-function scrollToTop(){
-    window.scrollTo({top: 0, behavior: "smooth"});
 }
 
 
