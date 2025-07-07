@@ -11,16 +11,10 @@ body{
     font-size: 1em;
     line-height: 1.5em;
 }
-p {
+p, h1, h2 {
     margin-bottom: 10px;
     text-align: justify;
 }
-
- h1, h2{
-    margin-bottom: 20px;
-    text-align: left;
-    line-height: 1.2em;
- }
 
 header,section.normal{
     padding: 20px;
@@ -58,12 +52,10 @@ article > div.media {
 div.media > img {
     display: block;
     margin: auto;
-    width: 300px;
-    padding: 10px;
 }
 
 div.media > iframe {
     display: block;
     margin: auto;
-    width: 90%;
+    padding: 0px;
 }

@@ -17,9 +17,7 @@ p {
 }
 
  h1, h2{
-    margin-bottom: 20px;
-    text-align: left;
-    line-height: 1.2em;
+    
  }
 
 header,section.normal{
@@ -59,7 +57,6 @@ div.media > img {
     display: block;
     margin: auto;
     width: 300px;
-    padding: 10px;
 }
 
 div.media > iframe {
