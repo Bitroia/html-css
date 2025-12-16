@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ddd;
+}
+
+.container {
+    max-width: 1100px;
+    background-color: white;
+    position: relative;
+    margin: 50;
+}
